@@ -21,8 +21,7 @@ function App() {
     <CssBaseline/>
     <Bar setRecordatorios={setRecordatorios} />
       <Box className={classes.listB}>
-	{recordatorios.length != 0?<Table recordatorios={recordatorios}/>: <Typography edge="start" variant="h4" className={classes.title}>
-	    <code>Ingresá y carga tus recordatorios primero</code></Typography>}
+	{recordatorios.length != 0?<Table recordatorios={recordatorios}/>: <div></div>}
       </Box>
   </ThemeProvider>
   );

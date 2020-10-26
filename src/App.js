@@ -1,6 +1,6 @@
 import React,{ useState, useEffect } from 'react';
 import { ThemeProvider } from '@material-ui/styles';
-import {  Box, CssBaseline, Typography } from '@material-ui/core';
+import {  Box, CssBaseline } from '@material-ui/core';
 import { Theme }from './components/Theme';
 import Bar from './components/Bar';
 import Table  from './components/Table';
@@ -21,7 +21,7 @@ function App() {
     <CssBaseline/>
     <Bar setRecordatorios={setRecordatorios} />
       <Box className={classes.listB}>
-	{recordatorios.length != 0?<Table recordatorios={recordatorios}/>: <div></div>}
+	{recordatorios.length !== 0?<Table recordatorios={recordatorios}/>: <div></div>}
       </Box>
   </ThemeProvider>
   );

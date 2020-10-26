@@ -26,12 +26,6 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const recordatorio = [
-  {6:'rutina de mañana', 9:'Daily con martina', 10: 'daily con los chicos', 15:'comprar comida de gatos'},
-  {},
-  {}
-];
-
 // definir el horario de sueño antes
 const hours = (n,diario, position,column) =>{
   var [inicio,fin] = [6,22];
@@ -56,10 +50,10 @@ function rer(recordatorios,date){
     if(Number(res[i].start.dateTime.slice(8,10))===date){
       ret[0][Number(res[i].start.dateTime.slice(11,13))] = res[i].summary;
     }
-    else if(Number(res[i].start.dateTime.slice(8,10))==date+1){
+    else if(Number(res[i].start.dateTime.slice(8,10))===date+1){
       ret[1][Number(res[i].start.dateTime.slice(11,13))] = res[i].summary;
     }
-    else if(Number(res[i].start.dateTime.slice(8,10))==date+2){
+    else if(Number(res[i].start.dateTime.slice(8,10))===date+2){
       ret[2][Number(res[i].start.dateTime.slice(11,13))] = res[i].summary;
     }
   } 
@@ -70,7 +64,7 @@ function Table({recordatorios}) {
   const classes = useStyles();
   const [x, setX] = useState(6);
   const [y, setY] = useState(0);
-  const [command, setCommand] = useState('')
+  //const [command, setCommand] = useState('')
   
   //useHotkeys('o', () => setCommand(command => ':'))
   useHotkeys('o', () => console.log(rer(recordatorios,date[0])));

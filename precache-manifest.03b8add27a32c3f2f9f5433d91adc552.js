@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27a2b4c25c7e7807ed5f99695952ebed",
+    "revision": "bd9b95ea4cc712f3f3ed308da165c55b",
     "url": "/Vimpare-Calendar/index.html"
   },
   {

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Vimpare-Calendar/precache-manifest.746cf24d743b5b1b90df1b7d520db716.js"
+  "/Vimpare-Calendar/precache-manifest.03b8add27a32c3f2f9f5433d91adc552.js"
 );
 
 self.addEventListener('message', (event) => {

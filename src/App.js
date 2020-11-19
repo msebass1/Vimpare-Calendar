@@ -4,6 +4,7 @@ import {  Box, CssBaseline } from '@material-ui/core';
 import { Theme }from './components/Theme';
 import Bar from './components/Bar';
 import Table  from './components/Table';
+import Welcome from './components/Welcome'
 import { useStyles } from './styles';
 
 
@@ -20,8 +21,8 @@ function App() {
   <ThemeProvider theme={Theme}> 
     <CssBaseline/>
     <Bar setRecordatorios={setRecordatorios} />
-      <Box className={classes.listB}>
-	{recordatorios.length !== 0?<Table recordatorios={recordatorios}/>: <div></div>}
+      <Box >
+	{recordatorios.length !== 0?<Table recordatorios={recordatorios}/>: <Welcome/>}
       </Box>
   </ThemeProvider>
   );

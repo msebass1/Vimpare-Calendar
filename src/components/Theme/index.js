@@ -5,7 +5,7 @@ import {
 export  const Theme = createMuiTheme({
   palette: {
     type: 'dark',
-    background: {
+    /*background: {
       default: '#264653',
       paper: '#66BFBF',
       
@@ -15,6 +15,6 @@ export  const Theme = createMuiTheme({
     },
     secondary: {
       main: '#056674',
-    },
+    },*/
   },
 });

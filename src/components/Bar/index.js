@@ -12,7 +12,6 @@ import ApiCalendar from 'react-google-calendar-api';
 const useStyles = makeStyles(() => ({
   root: {
     flexGrow: 1,
-    background: '#FF4B5C',
   },
   appBar: {
     top: 'auto',

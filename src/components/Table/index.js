@@ -64,7 +64,7 @@ function Table({recordatorios}) {
   const classes = useStyles();
   const [x, setX] = useState(6);
   const [y, setY] = useState(0);
-  //const [command, setCommand] = useState('')
+  //const [command, setCommand] = useState('');
   
   //useHotkeys('o', () => setCommand(command => ':'))
   useHotkeys('o', () => console.log(rer(recordatorios,date[0])));

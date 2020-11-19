@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Vimpare-Calendar/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Vimpare-Calendar/static/js/main.6427076f.chunk.js",
+    "main.js.map": "/Vimpare-Calendar/static/js/main.6427076f.chunk.js.map",
+    "runtime-main.js": "/Vimpare-Calendar/static/js/runtime-main.8fc63d38.js",
+    "runtime-main.js.map": "/Vimpare-Calendar/static/js/runtime-main.8fc63d38.js.map",
+    "static/js/2.d97ce545.chunk.js": "/Vimpare-Calendar/static/js/2.d97ce545.chunk.js",
+    "static/js/2.d97ce545.chunk.js.map": "/Vimpare-Calendar/static/js/2.d97ce545.chunk.js.map",
+    "index.html": "/Vimpare-Calendar/index.html",
+    "precache-manifest.746cf24d743b5b1b90df1b7d520db716.js": "/Vimpare-Calendar/precache-manifest.746cf24d743b5b1b90df1b7d520db716.js",
+    "service-worker.js": "/Vimpare-Calendar/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Vimpare-Calendar/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.d97ce545.chunk.js.LICENSE.txt": "/Vimpare-Calendar/static/js/2.d97ce545.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fc63d38.js",
+    "static/js/2.d97ce545.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.6427076f.chunk.js"
+  ]
+}

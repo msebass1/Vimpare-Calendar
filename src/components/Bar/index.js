@@ -25,17 +25,24 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-function singin (cb){
-  ApiCalendar.handleAuthClick();
+function singin (rec,er){
+  ApiCalendar.handleAuthClick()
   if (ApiCalendar.sign){
-      ApiCalendar.listUpcomingEvents(24)
+      ApiCalendar.listUpcomingEvents(50)
       .then(({result}) => {
-        cb(result.items)
-      });
+	if(result.items.length===0){
+	  er('no event');
+	}else{
+	  rec(result.items);
+	}
+      })
     }
+  else{
+    er('auth problem');
+  }
 }
 
-export default function Bar({setRecordatorios}) {
+export default function Bar({ setRecordatorios,setErr }) {
   const classes = useStyles();
 
   return (
@@ -45,7 +52,7 @@ export default function Bar({setRecordatorios}) {
 	  <Typography edge="start" variant="h6" className={classes.title}>
 	    <code>:VimpareCalendar </code>
           </Typography>
-	  <Button color="secondary" onClick={e=>singin(setRecordatorios)}>login</Button>
+	  <Button color="secondary" onClick={e=>singin(setRecordatorios,setErr)}>login</Button>
 	  <Divider orientation="vertical" flexItem />
 	  <Button color="secondary" onClick={ApiCalendar.handleSignoutClick}>logout</Button>
 	  <Divider orientation="vertical" flexItem /> 

@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Vimpare-Calendar/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Vimpare-Calendar/static/js/main.6427076f.chunk.js",
-    "main.js.map": "/Vimpare-Calendar/static/js/main.6427076f.chunk.js.map",
-    "runtime-main.js": "/Vimpare-Calendar/static/js/runtime-main.8fc63d38.js",
-    "runtime-main.js.map": "/Vimpare-Calendar/static/js/runtime-main.8fc63d38.js.map",
-    "static/js/2.d97ce545.chunk.js": "/Vimpare-Calendar/static/js/2.d97ce545.chunk.js",
-    "static/js/2.d97ce545.chunk.js.map": "/Vimpare-Calendar/static/js/2.d97ce545.chunk.js.map",
-    "index.html": "/Vimpare-Calendar/index.html",
-    "precache-manifest.03b8add27a32c3f2f9f5433d91adc552.js": "/Vimpare-Calendar/precache-manifest.03b8add27a32c3f2f9f5433d91adc552.js",
-    "service-worker.js": "/Vimpare-Calendar/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/Vimpare-Calendar/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.d97ce545.chunk.js.LICENSE.txt": "/Vimpare-Calendar/static/js/2.d97ce545.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/static/js/main.410cea54.chunk.js",
+    "main.js.map": "/static/js/main.410cea54.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.97f4d32f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.97f4d32f.js.map",
+    "static/js/2.c0f32c06.chunk.js": "/static/js/2.c0f32c06.chunk.js",
+    "static/js/2.c0f32c06.chunk.js.map": "/static/js/2.c0f32c06.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.905fcc29fe1b104ca24d29a6b67ca4d1.js": "/precache-manifest.905fcc29fe1b104ca24d29a6b67ca4d1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.c0f32c06.chunk.js.LICENSE.txt": "/static/js/2.c0f32c06.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8fc63d38.js",
-    "static/js/2.d97ce545.chunk.js",
+    "static/js/runtime-main.97f4d32f.js",
+    "static/js/2.c0f32c06.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.6427076f.chunk.js"
+    "static/js/main.410cea54.chunk.js"
   ]
 }
